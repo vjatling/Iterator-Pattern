@@ -13,7 +13,7 @@ public class IteratorClientTest {
 		while (iterator.hasNext()) {
 			Object object = iterator.next();
 			String name =(String)object;
-			System.out.println("Fabric Name:: "+name);
+			System.out.println("New Fabric Name:: "+name);
 		}
 		
 		
